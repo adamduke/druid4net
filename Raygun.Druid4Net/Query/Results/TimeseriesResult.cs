@@ -9,7 +9,7 @@ namespace Raygun.Druid4Net
   
   public class TimestampedResult<T>
   {
-    public DateTime Timestamp { get; set; }
+    public DateTime? Timestamp { get; set; }
 
     public T Result { get; set; }
   }
